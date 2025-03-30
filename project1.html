@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="project1.css" type="text/css" />
+
+        <title>OPLC Database Project - Page 1</title>
+    </head>
+
+    <body>
+        <h1>Old Pueblo Lapidary Club Database Project</h1>
+
+        <hr />
+
+        <h2>The Project</h2>
+
+        <p id="first-paragraph">The project was meant to serve as a custom database for the OPLC where administrators of the club could track the types of labs offered by the clubs and all of the club members and their usage of the labs. This system would double as an attendance and revenue tracking tool. The admins could pull different reports showing what labs existed, how much revenue they had generated, and what members were attending them, or in reverse, they could see every lab a member was signed up for and how much lab usage time they had available. On top of all of that, admins could go in and make updates to the database's contents directly, such as adding/removing members or labs and updating lab hours. Conceptually, this all sounded very simple and straight forward. We predicted the system would take 20 hours of work at most over the course of a couple of days to complete. It ended up taking closer to between 60 and 70 hours over 5 days....</p>
+
+        <h3>Hello World!</h3>
+
+        <p id="second-paragraph">I began the project, as many projects begin, with main.cpp. I had volunteered to be the primary coder, as I was the most comfortable with C++. My colleagues were unfamiliar with worksharing tools such as github, and we feared that due to the tight timeline, there wouldn't be enough time for me to teach them. Things started off going quite well. I setup a basic UI using the terminal and a faux login system to start with. I then moved onto making classes to represent the different type of reports that could be pulled from the database, as well as classes to represent objects with the reports. All seemed to be going well, until disaster struck.</p>
+
+        <div id="images">
+            <img src="images/main screenshot.png" alt="A screenshot of the code for the UI in main.cpp." />
+            <img src="images/main screenshot 2.png" alt="A screenshot of the code for the login system in main.cpp." />
+        </div>
+
+        <h4>Calamity</h4>
+
+        <p id="third-paragraph">The classes I created needed to use each other as data members in some cases. Those familiar with C++ know that you cannot do this directly, and need to use some tricks to make it work. I can't honestly remember exactly what every error was or just how many errors there were when I tried running the program with the new classes added, just that my terminal was filled to the brim with them. Was it a syntax error? Did I forget a parentheses? I was dumbfounded and spent the next dozen hours or so researching online and pouring through my C++ textbook looking for the cause of the errors and how to fix it. I eventually found a stack overflow post with a similar issue and determined what the cause was, but I still struggled to implement a solution.</p>
+
+        <img src="http://fossbytes.com/wp-content/uploads/2016/09/PROGRAMMIGN-ERROR-DETECTED.jpg" alt="An image of a screen stating that an error was detected and the only option is to weep.">
+
+        <h5>A Job Well Done</h5>
+
+        <p id="fourth-paragraph">I wish my memories of how I handled the situation were better, but I spent entire days in front of my computer pulling my hair out dealing with one issue after another. Eventually I found a way to implement everything we wanted and got it to work as intended. I spent one last day in a daze going through our testing document and making sure everything worked correctly. Fortunately, it did. My team and I all went through the project on our own one last time to ensure we were all satisfied, and then finally submitted it. The course ended with every team presenting our project, starting with the business case and ending with our reflections. In the end, my trials and tribulations were well worth it, as we got an A on the assignment and I got an A in the course. All's well that ends well.</p>
+
+        <img src="images/Thanos Resting.gif" alt="A gif of Thanos resting and watching the sunrise.">
+
+        <a href="index.html">Return to home</a>
+    </body>
+</html>
